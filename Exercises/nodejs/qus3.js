@@ -22,12 +22,12 @@ const { branchStudent, branch, student } = data;
 
 branchStudent.map((items) => {
   var branchName, studentName;
-  branch.map((item) => {
+  branch.find((item) => {
     if (item.id === items.branchId) {
       branchName = item.name;
     }
   });
-  student.map((item) => {
+  student.find((item) => {
     if (item.id === items.studentId) {
       studentName = item.name;
     }
