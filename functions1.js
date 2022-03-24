@@ -53,7 +53,7 @@ function manipultae(obj) {
   temp.name = 'jay';
   return temp;
 }
-sumFn(1, 2) /*?*/
+sum(1, 2) /*?*/
 sumVAN(1, 2) /*?*/
 sumVAA(1, 2) /*?*/
 //sumAI(1,2);
